@@ -67,7 +67,7 @@ Local Python API Server (Flask)
     ↓
 Average Predictions
     ↓
-Round Average (half-up rounding)
+Take Floor of Average (int)
     ↓
 Enforce Monotonic Stage Progression
     ↓
@@ -192,8 +192,9 @@ For each model:
 ### 8. Ensemble Prediction
 1. All three models make independent predictions
 2. Predictions are averaged
-3. Average is rounded using half-up rounding
-4. Example: (3 + 3 + 2) / 3 = 2.67 → Stage 3
+3. The floor of the average is taken (integer part, e.g., 2.67 → 2, 2.33 → 2)
+4. Example: (3 + 3 + 2) / 3 = 2.67 → Stage 2 (floor of 2.67)
+5. Example: (3 + 2 + 2) / 3 = 2.33 → Stage 2 (floor of 2.33)
 
 ### 9. Real-Time Inference
 - Chrome extension collects metrics every second

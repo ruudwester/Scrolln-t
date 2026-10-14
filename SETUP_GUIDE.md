@@ -15,7 +15,7 @@ Before you begin, ensure you have:
 - ✅ Python 3.8 or higher installed
 - ✅ Google Chrome browser
 - ✅ Your training data CSV file
-- ✅ MP3 warning sound files (optional)
+- ✅ MP3 sound files (optional - system works without them)
 
 ---
 
@@ -90,24 +90,36 @@ Your CSV must contain these columns:
 
 ## 🎵 Step 4: Add Sound Files (Optional)
 
-Place MP3 files in the `extension/sounds/` directory:
+**Sound files are completely optional.** The system works perfectly without them. You can skip this step entirely.
+
+If you DO want audio support, you must add your own MP3 files with these specific filenames:
 
 ### Warning Sounds (for Stage Popups)
+
+Place these files in `extension/sounds/` (you can use any MP3 files and rename them to match):
+
 ```
 extension/sounds/stage2.mp3
 extension/sounds/stage3.mp3
 extension/sounds/stage4.mp3
 ```
 
+**Note:** Stages 2, 3, 4 and 5 use visual as well as audio warnings (if files are present).
+
 ### Break Mode Ambient Audio
+
+Place these files in `extension/sounds/` (you can use any MP3 files and rename them to match):
+
 ```
-extension/sounds/sagegarden.mp3
-extension/sounds/lavendardream.mp3
-extension/sounds/oceanbreeze.mp3
-extension/sounds/warmsand.mp3
+extension/sounds/sagegarden.mp3      # For Sage Garden theme
+extension/sounds/lavendardream.mp3  # For Lavender Dream theme
+extension/sounds/oceanbreeze.mp3    # For Ocean Breeze theme
+extension/sounds/warmsand.mp3       # For Warm Sand theme
 ```
 
-**Note:** Sounds are optional - the system works without them.
+**Note:** Without these files, Break Mode will still work but will not have ambient audio.
+
+**TL;DR:** Skip this step if you don't have MP3 files. If you do, rename them to match the filenames above.
 
 ---
 
