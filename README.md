@@ -746,7 +746,7 @@ This project is created for educational purposes.
 
 ## 👨‍💻 Credits
 
-Created as an AI Capstone Project for demonstrating end-to-end machine learning application development. Prototype was created by Ritarko Dhara from Class XII A, DAV MODEL SCHOOL, IIT KGP (Session : 2026-27). Part of Capstone Project made by team of R Sai Keertana, Shivangi Sharma, Kaustav Naskar, Sreeti Ganguly, Ruchi Kumari, Sohana Adhikary, Soumya Shankar Mukhopadhyay, Ritarko Dhara, Uday Sharma, Shreyashree Das, Vandhana Agarwal, Tanay Roy 
+Created as an AI Capstone Project for demonstrating end-to-end machine learning application development. Prototype was created by Ritarko Dhara from Class XII A, DAV MODEL SCHOOL, IIT KGP (Session : 2026-27). Part of Capstone Project made by team of R Sai Keertana, Shivangi Sharma, Kaustav Naskar, Sreeti Ganguly, Ruchi Kumari, Sohana Adhikary, Soumya Sankar Mukhopadhyay, Ritarko Dhara, Uday Sharma, Shreyashree Das, Vandhana Agarwal, Tanay Roy 
 
 ---
 
